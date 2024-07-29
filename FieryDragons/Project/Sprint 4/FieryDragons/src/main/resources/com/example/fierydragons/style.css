@@ -1,0 +1,38 @@
+.game-title {
+    -fx-font-size: 32px;
+    -fx-text-fill: black;
+    -fx-font-family: "Fantasy Font";
+}
+
+.start-button{
+    -fx-background-image: url("assets/images/start.jpg");
+
+}
+
+.end-button{
+    -fx-background-image: url("assets/images/exit.jpg");
+}
+
+.tutorial-button{
+    -fx-background-image: url("assets/images/tutorial.jpg")
+}
+
+.load-game-button{
+    -fx-background-image: url("assets/images/load_game_button.png")
+}
+
+.start-screen-box {
+    -fx-background-color: rgba(255, 255, 255, 0.01);
+    -fx-background-radius: 10;
+
+}
+
+.background{
+    -fx-background-color: "#7D2B2B";
+}
+
+#board{
+    -fx-background-image: url("assets/images/gameboard.png")
+}
+
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" prefHeight="800.0" prefWidth="1280.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fierydragons.FXMLController.FieryDragonGameBoardController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#70242ad9" height="320.0" layoutX="775.0" layoutY="440.0" stroke="#70242acc" strokeType="INSIDE" width="440.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6e242a66" height="720.0" layoutX="50.0" layoutY="40.0" stroke="#70242acc" strokeType="INSIDE" width="680.0" />
+        <GridPane fx:id="board" alignment="CENTER" hgap="5.0" layoutX="125.0" layoutY="135.0" prefHeight="530.0" prefWidth="530.0" vgap="5.0">
+            <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+        <StackPane fx:id="CaveStack1" layoutX="65.0" layoutY="55.0" prefHeight="100.0" prefWidth="100.0" />
+        <StackPane fx:id="CaveStack2" layoutX="615.0" layoutY="55.0" prefHeight="100.0" prefWidth="100.0" />
+        <StackPane fx:id="CaveStack4" layoutX="65.0" layoutY="645.0" prefHeight="100.0" prefWidth="100.0" />
+        <StackPane fx:id="CaveStack3" layoutX="615.0" layoutY="645.0" prefHeight="100.0" prefWidth="100.0" />
+      <VBox alignment="CENTER" layoutX="775.0" layoutY="450.0" prefHeight="300.0" prefWidth="220.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/BabyDragon1.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Baby Dragon" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/Bat1.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Bat" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/Salamander1.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Salamander" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/Spider1.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Spider" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="10.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="995.0" layoutY="450.0" prefHeight="300.0" prefWidth="220.0">
+         <children>
+            <HBox alignment="CENTER_RIGHT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/PirateDragon1.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Pirate Dragon" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/SwapDragonCard.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Swap" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/SpeedBoost.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Speedy" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="75.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/images/SpeedNerf.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER" prefHeight="64.0" prefWidth="130.0">
+                     <children>
+                        <Label contentDisplay="CENTER" text="Slow" textAlignment="CENTER" textFill="#f8efe4">
+                           <font>
+                              <Font name="Arial Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" right="20.0" />
+         </padding>
+      </VBox>
+      <StackPane layoutX="775.0" layoutY="325.0" prefHeight="100.0" prefWidth="300.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72242ad9" height="100.0" stroke="#72242acc" strokeType="INSIDE" width="300.0" />
+            <Label fx:id="movementInfoLabel" alignment="CENTER" prefHeight="80.0" prefWidth="280.0" textAlignment="CENTER" textFill="WHITE" wrapText="true" StackPane.alignment="CENTER">
+               <font>
+                  <Font name="Centaur" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutX="775.0" layoutY="40.0" prefHeight="270.0" prefWidth="300.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72242aba" height="270.0" stroke="#72242acc" strokeType="INSIDE" width="300.0" />
+              <VBox fx:id="PlayerInfoBox" alignment="CENTER" layoutY="3.0" maxHeight="260.0" prefWidth="300.0" spacing="4.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="200.0" spacing="30.0">
+                     <padding>
+                        <Insets left="55.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="200.0" spacing="30.0">
+                     <padding>
+                        <Insets left="55.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="200.0" spacing="30.0">
+                     <padding>
+                        <Insets left="55.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="200.0" spacing="30.0">
+                     <padding>
+                        <Insets left="55.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+      <StackPane layoutX="1105.0" layoutY="40.0" prefHeight="385.0" prefWidth="110.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#72242aba" height="385.0" stroke="#72242acc" strokeType="INSIDE" width="110.0" />
+            <VBox alignment="CENTER" prefHeight="385.0" prefWidth="110.0" spacing="32.0">
+               <children>
+                  <Button fx:id="saveGameButton" mnemonicParsing="false" onAction="#saveGame" prefHeight="70.0" prefWidth="70.0" text="Save">
+                     <font>
+                        <Font name="Centaur" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="freeFlipButton" mnemonicParsing="false" onAction="#handleFreeFlip" prefHeight="120.0" prefWidth="70.0" text="RevealCards" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gameScreenExitButton" mnemonicParsing="false" onAction="#switchToStartScreen" prefHeight="70.0" prefWidth="70.0" text="Exit" textAlignment="CENTER">
+                     <font>
+                        <Font name="Centaur" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+    </children>
+</AnchorPane>

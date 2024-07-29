@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="background" prefHeight="800.0" prefWidth="1100.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fierydragons.FXMLController.FieryDragonGameBoardController">
+   <children>
+      <GridPane fx:id="board" alignment="CENTER" hgap="5.0" layoutX="135.0" layoutY="91.0" prefHeight="600.0" prefWidth="600.0" vgap="5.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <StackPane fx:id="CaveStack1" layoutX="46.0" layoutY="18.0" prefHeight="100.0" prefWidth="100.0" />
+      <StackPane fx:id="CaveStack2" layoutX="725.0" layoutY="18.0" prefHeight="100.0" prefWidth="100.0" />
+      <StackPane fx:id="CaveStack4" layoutX="46.0" layoutY="669.0" prefHeight="100.0" prefWidth="100.0" />
+      <StackPane fx:id="CaveStack3" layoutX="725.0" layoutY="669.0" prefHeight="100.0" prefWidth="100.0" />
+      <VBox fx:id="PlayerInfoBox" layoutX="911.0" layoutY="14.0" prefHeight="655.0" prefWidth="298.0" spacing="10.0" />
+   </children>
+</AnchorPane>

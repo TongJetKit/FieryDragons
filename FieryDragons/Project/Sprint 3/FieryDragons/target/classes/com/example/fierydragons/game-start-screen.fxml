@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="scenePane" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fierydragons.FXMLController.StartScreenController">
+    <children>
+        <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/images/dragon_background.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+        <AnchorPane layoutX="90.0" layoutY="260.0" prefHeight="200.0" prefWidth="220.0" style="-fx-background-color: white; -fx-opacity: 0.7;">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <children>
+                <VBox layoutX="30.0" layoutY="10.0" prefHeight="179.0" prefWidth="160.0" AnchorPane.bottomAnchor="10.666666666666657">
+                    <children>
+                        <Button fx:id="startButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#switchToGameScreen" prefHeight="40.0" prefWidth="160.0" styleClass="start-button" stylesheets="@style.css">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button fx:id="tutorialButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" styleClass="tutorial-button" stylesheets="@style.css">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                            <VBox.margin>
+                                <Insets bottom="20.0" top="20.0" />
+                            </VBox.margin>
+                        </Button>
+                        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitGame" prefHeight="40.0" prefWidth="160.0" styleClass="end-button" stylesheets="@style.css">
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+            <effect>
+                <Blend />
+            </effect>
+        </AnchorPane>
+        <ImageView fx:id="welcomeText" fitHeight="232.0" fitWidth="348.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/images/fiery_dragons_logo.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

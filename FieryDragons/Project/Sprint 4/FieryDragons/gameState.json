@@ -1,0 +1,397 @@
+{
+  "volcanoCardGroups": [
+    [
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ]
+  ],
+  "caveVolcanoCardGroups": [
+    [
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderCaveVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatCaveVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Salamander",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SalamanderCaveVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ],
+    [
+      {
+        "cardSymbol": "Bat",
+        "cardViewURL": "/com/example/fierydragons/assets/images/BatVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "Spider",
+        "cardViewURL": "/com/example/fierydragons/assets/images/SpiderCaveVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      },
+      {
+        "cardSymbol": "BabyDragon",
+        "cardViewURL": "/com/example/fierydragons/assets/images/DragonVolcanoCard.png",
+        "cardType": "VolcanoCard"
+      }
+    ]
+  ],
+  "caves": [
+    {
+      "cardSymbol": "Salamander",
+      "cardViewURL": "/com/example/fierydragons/assets/images/CaveSalamander.png",
+      "cardType": "CaveCard"
+    },
+    {
+      "cardSymbol": "Bat",
+      "cardViewURL": "/com/example/fierydragons/assets/images/CaveBat.png",
+      "cardType": "CaveCard"
+    },
+    {
+      "cardSymbol": "Spider",
+      "cardViewURL": "/com/example/fierydragons/assets/images/CaveSpider.png",
+      "cardType": "CaveCard"
+    },
+    {
+      "cardSymbol": "BabyDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/CaveBabyDragon.png",
+      "cardType": "CaveCard"
+    }
+  ],
+  "players": [
+    {
+      "playerNumber": "0",
+      "moveSpeed": "1",
+      "caveSymbol": "Salamander",
+      "column": "-1",
+      "row": "-1",
+      "moveCount": "0",
+      "freeFlipUsed": "false"
+    },
+    {
+      "playerNumber": "1",
+      "moveSpeed": "1",
+      "caveSymbol": "Bat",
+      "column": "-1",
+      "row": "-1",
+      "moveCount": "0",
+      "freeFlipUsed": "false"
+    },
+    {
+      "playerNumber": "2",
+      "moveSpeed": "1",
+      "caveSymbol": "Spider",
+      "column": "-1",
+      "row": "-1",
+      "moveCount": "0",
+      "freeFlipUsed": "false"
+    },
+    {
+      "playerNumber": "3",
+      "moveSpeed": "1",
+      "caveSymbol": "BabyDragon",
+      "column": "-1",
+      "row": "-1",
+      "moveCount": "0",
+      "freeFlipUsed": "false"
+    }
+  ],
+  "dragonCards": [
+    {
+      "cardSymbol": "Spider",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Spider3.png",
+      "creatureCount": "3",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "BabyDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/BabyDragon3.png",
+      "creatureCount": "3",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "SLOW",
+      "cardViewURL": "/com/example/fierydragons/assets/images/SpeedNerf.png",
+      "creatureCount": "1",
+      "cardType": "SlowDragonCard"
+    },
+    {
+      "cardSymbol": "Bat",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Bat2.png",
+      "creatureCount": "2",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "Bat",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Bat3.png",
+      "creatureCount": "3",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "PirateDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/PirateDragon1.png",
+      "creatureCount": "1",
+      "cardType": "PirateDragonCard"
+    },
+    {
+      "cardSymbol": "Spider",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Spider2.png",
+      "creatureCount": "2",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "Salamander",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Salamander2.png",
+      "creatureCount": "2",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "Salamander",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Salamander3.png",
+      "creatureCount": "3",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "SWAP",
+      "cardViewURL": "/com/example/fierydragons/assets/images/SwapDragonCard.png",
+      "creatureCount": "1",
+      "cardType": "SwapDragonCard"
+    },
+    {
+      "cardSymbol": "FAST",
+      "cardViewURL": "/com/example/fierydragons/assets/images/SpeedBoost.png",
+      "creatureCount": "1",
+      "cardType": "SpeedDragonCard"
+    },
+    {
+      "cardSymbol": "Salamander",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Salamander1.png",
+      "creatureCount": "1",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "PirateDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/PirateDragon1.png",
+      "creatureCount": "1",
+      "cardType": "PirateDragonCard"
+    },
+    {
+      "cardSymbol": "BabyDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/BabyDragon2.png",
+      "creatureCount": "2",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "PirateDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/PirateDragon2.png",
+      "creatureCount": "2",
+      "cardType": "PirateDragonCard"
+    },
+    {
+      "cardSymbol": "PirateDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/PirateDragon2.png",
+      "creatureCount": "2",
+      "cardType": "PirateDragonCard"
+    },
+    {
+      "cardSymbol": "Spider",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Spider1.png",
+      "creatureCount": "1",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "Bat",
+      "cardViewURL": "/com/example/fierydragons/assets/images/Bat1.png",
+      "creatureCount": "1",
+      "cardType": "CreatureDragonCard"
+    },
+    {
+      "cardSymbol": "BabyDragon",
+      "cardViewURL": "/com/example/fierydragons/assets/images/BabyDragon1.png",
+      "creatureCount": "1",
+      "cardType": "CreatureDragonCard"
+    }
+  ],
+  "dragonCardLocations": [
+    {
+      "column": 4,
+      "row": 1
+    },
+    {
+      "column": 2,
+      "row": 1
+    },
+    {
+      "column": 4,
+      "row": 4
+    },
+    {
+      "column": 2,
+      "row": 2
+    },
+    {
+      "column": 1,
+      "row": 4
+    },
+    {
+      "column": 3,
+      "row": 1
+    },
+    {
+      "column": 4,
+      "row": 3
+    },
+    {
+      "column": 3,
+      "row": 2
+    },
+    {
+      "column": 5,
+      "row": 5
+    },
+    {
+      "column": 2,
+      "row": 3
+    },
+    {
+      "column": 3,
+      "row": 4
+    },
+    {
+      "column": 5,
+      "row": 1
+    },
+    {
+      "column": 1,
+      "row": 2
+    },
+    {
+      "column": 3,
+      "row": 5
+    },
+    {
+      "column": 2,
+      "row": 4
+    },
+    {
+      "column": 4,
+      "row": 5
+    },
+    {
+      "column": 4,
+      "row": 2
+    },
+    {
+      "column": 5,
+      "row": 4
+    },
+    {
+      "column": 5,
+      "row": 2
+    }
+  ],
+  "currentPlayerIndex": 0
+}

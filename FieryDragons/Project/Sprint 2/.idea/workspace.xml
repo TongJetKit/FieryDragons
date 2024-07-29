@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f276d90-d75d-4884-abc6-bf7df4c83f36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FieryDragons/.idea/artifacts/FieryDragons_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/FieryDragonsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/DragonCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/DragonCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/FlipCardPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/FlipCardPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/Flippable.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Cards/Flippable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/FXMLController/FieryDragonGameBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/FXMLController/FieryDragonGameBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/FieryDragonsGameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/FieryDragonsGameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/FieryDragons/src/main/java/com/example/fierydragons/Player.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2flkzREaMbBS6fgX6nVizQR5AJS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Sprint2-CardFlipping__JK",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jetkittong1/Desktop/FIT3077-Assignment/Project/Sprint 2/FieryDragons"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f276d90-d75d-4884-abc6-bf7df4c83f36" name="Changes" comment="" />
+      <created>1714383313412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714383313412</updated>
+    </task>
+    <servers />
+  </component>
+</project>
